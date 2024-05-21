@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./background.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    height: 100vh ;
+
+}
+.container {
+   
+    width: 90%; /* Responsive width */
+    max-width: 800px; /* Max width remains 800px */
+    padding: 20px; /* Inner padding */ 
+
+    background:rgb(228, 197, 158 , 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li.news-wale {
+    
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(50, 44, 43);
+    border-top: 5px solid rgb(50, 44, 43);
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+p {
+    color: #555;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.input{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.input #btn{
+    background-color: lightblue;
+    border: 3px;
+    border-radius: 10px;
+
+}
+h3{
+    color: brown;
+}
+h2{
+    color: rgb(50, 44, 43);
+}
+p{
+    color:rgb(128, 61, 59);
+}
+.name{
+    position: absolute;
+    margin-left: 20px;
+    color: rgb(228, 197, 158 );
+    background-color: rgb(128, 61, 59);
+    border: 3px solid brown;
+    border-radius:20%;
+
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav-link {
+    color: #E4C59E !important;
+    border: none !important;
+
+}
+
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #E4C59E;
+    border: none !important;
+
+}
+
+
+.navbar .nav-link:hover, 
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: #E4C59E; 
+    border: none !important;
+}
+
+li.news-wale img {
+    max-width: 100%;
+
+    border-radius: 5px; 
+
+    margin-bottom: 10px;
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3A9EFF ; 
+    color :white; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3A7FDB; 
+}
+#btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid white;
+    background-color:#555;
+}
+#btn-1{
+
+    display: block;
+    margin-top: 5px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid black;
+    background-color:#803D3B ;
+}
